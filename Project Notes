@@ -1,0 +1,11 @@
+The initial idea of the project was to use the IBM DB2 database to store all of the training and testing data. We had also planned on using Llama3 for the computer vision, either natively installed on the linuxone system or by calling to IBMs WatsonX. However, due to difficulties with WatsonX, it was deemed much easier to use the OpenAI API.
+Additionally, due to diffuculties in installing DB2 into the Docker, and the unexpectedly small size of our testing data, it was stored on a .csv (incldued in this repository). This was also sourced from github. 
+We also had a fully functional User Interface for native Windows and Mac, however, due to difficulties with installing PyQt5 onto the docker, this could not be used, hence the need for a rudimentary UI given here.
+
+Future Scope: 
+
+The listed failures of the project (mainly due to the time constraints of 24 hours) would be the obvious improvements for the future. 
+However, we also acknowledge the limitations of using APIs for computer vision. Due to limited output from OpenAI, we missed many data points, such as the average distance between characters and further recognition in this sense. 
+Additionally, rather than using simple computer vision, a neural network can be used to analyse the shape consistency of letters and even thus produce further data points for the logistic regression model. 
+There would also be scope to deploy the application on the web, to increase accessibility and usability. 
+We also struggled to find datasets to train the model, and a larger set, in general, would allow us to test and train the model much more effectively.
