@@ -1,4 +1,4 @@
-**Note to Examiners** Please use the LinuxOne IP address here to run the code 148.100.109.82:38888. We have had issues publicly posting the API key, so it will have to be run there. Thank you :)
+**NOTE TO JUDGES PLEASE USE THE LinuxOne IP ADDRESS TO RUN THE CODE 148.100.109.82:38888. We have had issues publicly posting the API key, so it will have to be run there. Thank you :)**
 
 
 This code was produced for the IBMz 2024 Datathon with an aim to make Dyslexia diagnosis available, on hand, to all. By analysing the handwriting of a person, it is possible to determine the likelyhood of an individual having dyslexia.
